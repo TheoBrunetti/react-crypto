@@ -1,4 +1,4 @@
-# Crypto Watch Tower
+# React Crypto
 
 Market data : `https://api.coingecko.com/api/v3/global`
 
