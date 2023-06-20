@@ -10,14 +10,14 @@ const StarIcon = ({ coinId }) => {
                 setLike(true);
             }
         }
-    });
+    }, []);
 
     const idChecker = (id) => {
         let favList = null;
-
         if (window.localStorage.coinList) {
             favList = window.localStorage.coinList.split(",");
         }
+
         if (favList) {
             if (favList.includes(id)) {
                 window.localStorage.coinList = favList.filter(
