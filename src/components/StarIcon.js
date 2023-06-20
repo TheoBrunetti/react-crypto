@@ -25,7 +25,7 @@ const StarIcon = ({ coinId }) => {
                 );
                 setLike(false);
             } else {
-                window.localStorage.coinList = [...favList, coinid];
+                window.localStorage.coinList = [...favList, coinId];
                 setLike(true);
             }
         } else {
