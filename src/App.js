@@ -31,7 +31,7 @@ const App = () => {
                 <HeaderInfos />
                 <GlobalChart coinsData={coinsData} />
             </header>
-            <Table />
+            <Table coinsData={coinsData} />
             <ToTop />
         </div>
     );
