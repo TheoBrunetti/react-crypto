@@ -52,7 +52,7 @@ const GlobalChart = ({ coinsData }) => {
                             "%",
                         size: coinsData[i].market_cap,
                         fill: colorPicker(
-                            coinsData[i].price_change_percentage_24h
+                            coinsData[i].market_cap_change_percentage_24h
                         ),
                     });
                 }
